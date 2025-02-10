@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navigation">
+        <a href="index.html" class="btn">Registration Page</a>
+        <a href="exam.html" class="btn">Exam Scores</a>
+    </div>
+
+    <h1>Student Registration</h1>
+    <form id="registrationForm">
+        <label for="studentName">Student Name:</label>
+        <input type="text" id="studentName" required>
+
+        <label for="studentId">Student ID:</label>
+        <input type="text" id="studentId" required>
+
+        <label for="class">Class:</label>
+        <select id="class" required>
+            <option value="">-- Select Class --</option>
+            <option value="Grade 1">Grade 1</option>
+            <option value="Grade 2">Grade 2</option>
+            <option value="Grade 3">Grade 3</option>
+            <option value="Grade 4">Grade 4</option>
+            <option value="Grade 5">Grade 5</option>
+            <option value="Grade 6">Grade 6</option>
+            <option value="Grade 7">Grade 7</option>
+            <option value="Grade 8">Grade 8</option>
+            <option value="Grade 9">Grade 9</option>
+        </select>
+
+        <label for="gender">Gender:</label>
+        <select id="gender" required>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select>
+
+        <button type="submit">Register Student</button>
+    </form>
+
+    <h2>Registered Students</h2>
+    <ul id="studentList"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>

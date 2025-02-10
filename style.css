@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, select, textarea, button {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.navigation {
+    margin-bottom: 20px;
+}
+
+.navigation .btn {
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.navigation .btn:hover {
+    background-color: #45a049;
+}
+
+#remarks {
+    height: 100px;
+}
+
+.report {
+    border: 1px solid #000;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.report h3 {
+    margin-top: 0;
+}
+
+.report .grades {
+    margin-bottom: 10px;
+}
+
+.grades p {
+    margin: 0;
+}
+
